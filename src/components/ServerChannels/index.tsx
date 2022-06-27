@@ -8,15 +8,15 @@ export default function ServerChannels() {
       <Header />
       
       <div className="pl-4 pr-2 text-gray-500">
-        <Category text="Development">
+        <Category name="Development">
 
-          <Channel text="TailwindCSS" />
-          <Channel text="Typescript" />
-          <Channel text="React" />
+          <Channel name="TailwindCSS" />
+          <Channel name="Typescript" />
+          <Channel name="React" />
         </Category>
-        <Category text="Animes">
-          <Channel text="Luffy" />
-          <Channel text="Eren Jaeger" />
+        <Category name="Animes">
+          <Channel name="Luffy" />
+          <Channel name="Eren Jaeger" />
         </Category>
       </div>
 

@@ -1,5 +1,5 @@
-import { Chat } from "./pages/Chat"
+import XanderChat from "./pages/XanderChat"
 
 export default function App() {
-  return <Chat />
+  return <XanderChat />
 }
